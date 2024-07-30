@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_accordion",
+  "info": {
+    "displayName": "Accordion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "accordions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description-list-item"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

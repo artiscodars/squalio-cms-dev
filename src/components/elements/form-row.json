@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_elements_form_rows",
+  "info": {
+    "displayName": "Form row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "textarea",
+        "tel",
+        "email",
+        "number",
+        "checkbox",
+        "radio",
+        "date",
+        "datetime-local",
+        "time",
+        "file",
+        "title"
+      ],
+      "required": true
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "label": {
+      "type": "string"
+    },
+    "mandatory": {
+      "type": "boolean"
+    },
+    "field_description": {
+      "type": "string"
+    },
+    "default_value": {
+      "type": "string"
+    }
+  }
+}

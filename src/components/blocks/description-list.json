@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_blocks_description_lists",
+  "info": {
+    "displayName": "Description list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "descriptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.description-list-item"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "columns": {
+      "type": "integer",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "Centred",
+        "Left aligned"
+      ]
+    }
+  }
+}

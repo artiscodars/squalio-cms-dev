@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_sub_children",
+  "info": {
+    "displayName": "Tree level one",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "self",
+        "blank"
+      ],
+      "default": "self"
+    },
+    "level_two": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tree-level-two"
+    }
+  }
+}

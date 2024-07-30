@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_blocks_text_and_video",
+  "info": {
+    "displayName": "Text & Video",
+    "description": "",
+    "icon": "write"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "youtube_id": {
+      "type": "string",
+      "required": true
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.button"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "template": {
+      "type": "enumeration",
+      "required": false,
+      "default": "VideoLeft",
+      "enum": [
+        "VideoLeft",
+        "VideoRight",
+        "VideoLeftBelowTitle",
+        "VideoRightBelowTitle",
+        "VideoAboveTitle",
+        "VideoBelowTitle",
+        "VideoBelowDescription"
+      ]
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "video_width": {
+      "type": "string"
+    }
+  }
+}

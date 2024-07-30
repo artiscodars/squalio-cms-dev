@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_style_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "paint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "margin": {
+      "type": "string"
+    },
+    "border_radius": {
+      "type": "string"
+    },
+    "border_width": {
+      "type": "integer"
+    },
+    "border_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "width_unit": {
+      "type": "enumeration",
+      "enum": [
+        "percent",
+        "px"
+      ],
+      "default": "percent"
+    },
+    "margin_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vw"
+      ],
+      "default": "px"
+    },
+    "width": {
+      "type": "float"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_hidden_fields",
+  "info": {
+    "displayName": "hidden_field",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

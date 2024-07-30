@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "cookie_scripts",
+  "info": {
+    "singularName": "cookie-script",
+    "pluralName": "cookie-scripts",
+    "displayName": "Cookie scripts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cookie_scripts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.cookie-scripts"
+    }
+  }
+}

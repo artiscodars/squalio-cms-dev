@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_cookie_scripts",
+  "info": {
+    "displayName": "Cookie scripts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "script": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "placement": {
+      "type": "enumeration",
+      "enum": [
+        "head",
+        "body",
+        "footer"
+      ]
+    },
+    "cookie_names": {
+      "type": "string"
+    }
+  }
+}

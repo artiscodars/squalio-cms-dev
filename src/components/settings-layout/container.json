@@ -1,0 +1,108 @@
+{
+  "collectionName": "components_settings_fields_containers",
+  "info": {
+    "displayName": "Container",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "boxed",
+        "full-width"
+      ],
+      "default": "boxed"
+    },
+    "background_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "background_gradient_start": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "background_gradient_end": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "background_image_size": {
+      "type": "enumeration",
+      "enum": [
+        "cover",
+        "contain"
+      ]
+    },
+    "background_image_position": {
+      "type": "enumeration",
+      "enum": [
+        "left top",
+        "center top",
+        "right top",
+        "left center",
+        "center center",
+        "right center",
+        "left bottom",
+        "center bottom",
+        "right bottom"
+      ]
+    },
+    "background_gradient_direction": {
+      "type": "enumeration",
+      "enum": [
+        "vertical",
+        "horizontal",
+        "diagonal-left",
+        "diagonal-right"
+      ]
+    },
+    "margin": {
+      "type": "string",
+      "regex": "^(\\d+(\\s?\\d+)*)$"
+    },
+    "margin_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vw"
+      ],
+      "default": "px"
+    },
+    "background_opacity": {
+      "type": "float"
+    },
+    "padding": {
+      "type": "string",
+      "regex": "^(\\d+(\\s?\\d+)*)$"
+    },
+    "padding_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vw"
+      ],
+      "default": "px"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_elements_lists",
+  "info": {
+    "displayName": "List layout",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "enum": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "default": "desktop",
+      "required": true
+    },
+    "columns": {
+      "type": "integer"
+    },
+    "columns_gap": {
+      "type": "float"
+    },
+    "rows_gap": {
+      "type": "float"
+    },
+    "columns_gap_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vh",
+        "vw"
+      ]
+    },
+    "rows_gap_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vh",
+        "vw"
+      ]
+    },
+    "list_item": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.list-item"
+    }
+  }
+}

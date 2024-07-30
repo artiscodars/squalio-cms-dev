@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_blocks_tables",
+  "info": {
+    "displayName": "table",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "table_params": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "elements.table-params"
+    },
+    "table_columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.table-header-columns"
+    },
+    "table_rows_groups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.table-rows-group"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    }
+  }
+}

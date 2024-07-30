@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_description_list_items",
+  "info": {
+    "displayName": "Description list item",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

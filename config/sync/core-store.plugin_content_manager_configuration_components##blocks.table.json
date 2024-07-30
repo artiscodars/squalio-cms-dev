@@ -1,0 +1,159 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.table",
+  "value": {
+    "uid": "blocks.table",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "table_params": {
+        "edit": {
+          "label": "table_params",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "table_params",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "table_columns": {
+        "edit": {
+          "label": "table_columns",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "table_columns",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "table_rows_groups": {
+        "edit": {
+          "label": "table_rows_groups",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "table_rows_groups",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "settings": {
+        "edit": {
+          "label": "settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "settings",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "layout_settings": {
+        "edit": {
+          "label": "layout_settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "layout_settings",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "table_rows_groups",
+        "table_columns",
+        "title"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "table_columns",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "table_rows_groups",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "table_params",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "settings",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "layout_settings",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

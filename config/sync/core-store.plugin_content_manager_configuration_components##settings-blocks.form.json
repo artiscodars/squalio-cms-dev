@@ -1,0 +1,323 @@
+{
+  "key": "plugin_content_manager_configuration_components::settings-blocks.form",
+  "value": {
+    "uid": "settings-blocks.form",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "field_background",
+      "defaultSortBy": "field_background",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "field_background": {
+        "edit": {
+          "label": "field_background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "field_background",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "field_border_width": {
+        "edit": {
+          "label": "field_border_width",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "field_border_width",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "field_border_color": {
+        "edit": {
+          "label": "field_border_color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "field_border_color",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "field_border_radius": {
+        "edit": {
+          "label": "field_border_radius",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "field_border_radius",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "field_border_radius_unit": {
+        "edit": {
+          "label": "field_border_radius_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "field_border_radius_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "label_text_size": {
+        "edit": {
+          "label": "label_text_size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "label_text_size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "label_text_size_unit": {
+        "edit": {
+          "label": "label_text_size_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "label_text_size_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "label_color": {
+        "edit": {
+          "label": "label_color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "label_color",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "asterisk_color": {
+        "edit": {
+          "label": "asterisk_color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "asterisk_color",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "row_gap": {
+        "edit": {
+          "label": "row_gap",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "row_gap",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "column_gap": {
+        "edit": {
+          "label": "column_gap",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "column_gap",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columns": {
+        "edit": {
+          "label": "columns",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "columns",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "submit_button_align": {
+        "edit": {
+          "label": "submit_button_align",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "submit_button_align",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "submit_button_size": {
+        "edit": {
+          "label": "submit_button_size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "submit_button_size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "submit_button_color": {
+        "edit": {
+          "label": "submit_button_color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "submit_button_color",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "field_background",
+        "field_border_width",
+        "field_border_color"
+      ],
+      "edit": [
+        [
+          {
+            "name": "field_background",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "field_border_color",
+            "size": 4
+          },
+          {
+            "name": "field_border_width",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "field_border_radius",
+            "size": 4
+          },
+          {
+            "name": "field_border_radius_unit",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "label_text_size",
+            "size": 4
+          },
+          {
+            "name": "label_text_size_unit",
+            "size": 4
+          },
+          {
+            "name": "label_color",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "asterisk_color",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "columns",
+            "size": 4
+          },
+          {
+            "name": "column_gap",
+            "size": 4
+          },
+          {
+            "name": "row_gap",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "submit_button_align",
+            "size": 4
+          },
+          {
+            "name": "submit_button_color",
+            "size": 4
+          },
+          {
+            "name": "submit_button_size",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

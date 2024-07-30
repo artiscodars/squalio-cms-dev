@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_settings_blocks_banners",
+  "info": {
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "required": true,
+      "default": "desktop",
+      "enum": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+     "component": "settings-fields.text"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.buttons-holder"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.image"
+    },
+    "min_height": {
+      "type": "float"
+    },
+    "min_height_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vh"
+      ]
+    },
+    "content_vertical_align": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "middle",
+        "bottom"
+      ]
+    }
+  }
+}

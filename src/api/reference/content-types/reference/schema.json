@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "references",
+  "info": {
+    "singularName": "reference",
+    "pluralName": "references",
+    "displayName": "References",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "company": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "employees": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::country.country"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.banner",
+        "blocks.button-group",
+        "blocks.contact-form",
+        "blocks.content-block",
+        "blocks.description-list",
+        "blocks.description",
+        "blocks.gallery",
+        "blocks.icon-boxes",
+        "blocks.image-boxes",
+        "blocks.image",
+        "blocks.logo-group",
+        "blocks.posts-swiper",
+        "blocks.posts",
+        "blocks.quote",
+        "blocks.team",
+        "blocks.text-and-image",
+        "blocks.text-and-video",
+        "blocks.text"
+      ]
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}

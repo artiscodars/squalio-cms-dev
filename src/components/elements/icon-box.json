@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_elements_icon_box",
+  "info": {
+    "displayName": "Icon box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "link_type": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "button",
+        "title"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

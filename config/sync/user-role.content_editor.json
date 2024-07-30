@@ -1,0 +1,166 @@
+{
+  "name": "Content editor",
+  "description": "Squalio employee",
+  "type": "content_editor",
+  "permissions": [
+    {
+      "action": "api::cookie-script.cookie-script.delete"
+    },
+    {
+      "action": "api::cookie-script.cookie-script.find"
+    },
+    {
+      "action": "api::cookie-script.cookie-script.update"
+    },
+    {
+      "action": "api::event.event.create"
+    },
+    {
+      "action": "api::event.event.createLocalization"
+    },
+    {
+      "action": "api::event.event.delete"
+    },
+    {
+      "action": "api::event.event.find"
+    },
+    {
+      "action": "api::event.event.findOne"
+    },
+    {
+      "action": "api::event.event.update"
+    },
+    {
+      "action": "api::gdpr.gdpr.createLocalization"
+    },
+    {
+      "action": "api::gdpr.gdpr.delete"
+    },
+    {
+      "action": "api::gdpr.gdpr.find"
+    },
+    {
+      "action": "api::gdpr.gdpr.update"
+    },
+    {
+      "action": "api::home.home.createLocalization"
+    },
+    {
+      "action": "api::home.home.delete"
+    },
+    {
+      "action": "api::home.home.find"
+    },
+    {
+      "action": "api::home.home.update"
+    },
+    {
+      "action": "api::page.page.create"
+    },
+    {
+      "action": "api::page.page.createLocalization"
+    },
+    {
+      "action": "api::page.page.delete"
+    },
+    {
+      "action": "api::page.page.find"
+    },
+    {
+      "action": "api::page.page.findOne"
+    },
+    {
+      "action": "api::page.page.update"
+    },
+    {
+      "action": "api::post.post.create"
+    },
+    {
+      "action": "api::post.post.createLocalization"
+    },
+    {
+      "action": "api::post.post.delete"
+    },
+    {
+      "action": "api::post.post.find"
+    },
+    {
+      "action": "api::post.post.findOne"
+    },
+    {
+      "action": "api::post.post.update"
+    },
+    {
+      "action": "api::product.product.create"
+    },
+    {
+      "action": "api::product.product.createLocalization"
+    },
+    {
+      "action": "api::product.product.delete"
+    },
+    {
+      "action": "api::product.product.find"
+    },
+    {
+      "action": "api::product.product.findOne"
+    },
+    {
+      "action": "api::product.product.update"
+    },
+    {
+      "action": "api::setting.setting.createLocalization"
+    },
+    {
+      "action": "api::setting.setting.delete"
+    },
+    {
+      "action": "api::setting.setting.find"
+    },
+    {
+      "action": "api::setting.setting.update"
+    },
+    {
+      "action": "api::vacancy.vacancy.create"
+    },
+    {
+      "action": "api::vacancy.vacancy.createLocalization"
+    },
+    {
+      "action": "api::vacancy.vacancy.delete"
+    },
+    {
+      "action": "api::vacancy.vacancy.find"
+    },
+    {
+      "action": "api::vacancy.vacancy.findOne"
+    },
+    {
+      "action": "api::vacancy.vacancy.update"
+    },
+    {
+      "action": "plugin::content-type-builder.components.getComponent"
+    },
+    {
+      "action": "plugin::content-type-builder.components.getComponents"
+    },
+    {
+      "action": "plugin::content-type-builder.content-types.getContentType"
+    },
+    {
+      "action": "plugin::content-type-builder.content-types.getContentTypes"
+    },
+    {
+      "action": "plugin::upload.content-api.destroy"
+    },
+    {
+      "action": "plugin::upload.content-api.find"
+    },
+    {
+      "action": "plugin::upload.content-api.findOne"
+    },
+    {
+      "action": "plugin::upload.content-api.upload"
+    }
+  ]
+}

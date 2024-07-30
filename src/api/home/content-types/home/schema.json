@@ -1,0 +1,80 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.banner",
+        "blocks.button-group",
+        "blocks.description",
+        "blocks.gallery",
+        "blocks.logo-group",
+        "blocks.quote",
+        "blocks.icon-boxes",
+        "blocks.slideshow",
+        "blocks.testimonials",
+        "blocks.text-and-image",
+        "blocks.posts",
+        "blocks.content-block",
+        "blocks.posts-swiper",
+        "blocks.description-list",
+        "blocks.numbers",
+        "blocks.image-boxes"
+      ]
+    },
+    "hide_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
+    },
+    "hide_breadcrumb": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

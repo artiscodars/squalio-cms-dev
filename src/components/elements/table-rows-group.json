@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_elements_table_rows_groups",
+  "info": {
+    "displayName": "Table rows group",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.table-row"
+    },
+    "hide_group_title": {
+      "type": "boolean"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "text_before_price": {
+      "type": "string"
+    },
+    "text_after_price": {
+      "type": "string"
+    },
+    "old_price": {
+      "type": "string"
+    },
+    "price_position": {
+      "type": "enumeration",
+      "enum": [
+        "in title row",
+        "above rows",
+        "below rows"
+      ]
+    }
+  }
+}

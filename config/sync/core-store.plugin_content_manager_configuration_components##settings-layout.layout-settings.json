@@ -1,0 +1,117 @@
+{
+  "key": "plugin_content_manager_configuration_components::settings-layout.layout-settings",
+  "value": {
+    "uid": "settings-layout.layout-settings",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "viewport",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "viewport": {
+        "edit": {
+          "label": "viewport",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "viewport",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "wrapper": {
+        "edit": {
+          "label": "wrapper",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "wrapper",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "container": {
+        "edit": {
+          "label": "container",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "container",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "hide_title": {
+        "edit": {
+          "label": "hide_title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "hide_title",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "viewport",
+        "wrapper",
+        "container"
+      ],
+      "edit": [
+        [
+          {
+            "name": "viewport",
+            "size": 4
+          },
+          {
+            "name": "hide_title",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "wrapper",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "container",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_blocks_video_galleries",
+  "info": {
+    "displayName": "Video gallery",
+    "icon": "play",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.video-gallery-item"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "columns": {
+      "type": "integer",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_blocks",
+  "info": {
+    "singularName": "content-block",
+    "pluralName": "content-blocks",
+    "displayName": "Content blocks",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.banner",
+        "blocks.button-group",
+        "blocks.contact-form",
+        "blocks.description",
+        "blocks.gallery",
+        "blocks.image-boxes",
+        "blocks.logo-group",
+        "blocks.posts",
+        "blocks.quote",
+        "blocks.icon-boxes",
+        "blocks.slideshow",
+        "blocks.table",
+        "blocks.testimonials",
+        "blocks.text-and-image",
+        "blocks.text",
+        "blocks.description-list"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "excluded_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page",
+      "mappedBy": "content_block"
+    }
+  }
+}

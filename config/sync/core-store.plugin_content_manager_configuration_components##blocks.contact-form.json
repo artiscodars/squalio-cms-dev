@@ -1,0 +1,296 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.contact-form",
+  "value": {
+    "uid": "blocks.contact-form",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "form_rows": {
+        "edit": {
+          "label": "form_rows",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "form_rows",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "submit_email": {
+        "edit": {
+          "label": "submit_email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "submit_email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "post_endpoint": {
+        "edit": {
+          "label": "post_endpoint",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "post_endpoint",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "success_message": {
+        "edit": {
+          "label": "success_message",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "success_message",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "redirect_url": {
+        "edit": {
+          "label": "redirect_url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "redirect_url",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "submit_button_name": {
+        "edit": {
+          "label": "submit_button_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "submit_button_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "security_key": {
+        "edit": {
+          "label": "security_key",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "security_key",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "hidden_fields": {
+        "edit": {
+          "label": "hidden_fields",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "hidden_fields",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "privacy_policy": {
+        "edit": {
+          "label": "privacy_policy",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "privacy_policy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "settings": {
+        "edit": {
+          "label": "settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "settings",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "layout_settings": {
+        "edit": {
+          "label": "layout_settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "layout_settings",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "form_rows",
+        "title",
+        "settings"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "form_rows",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "privacy_policy",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "hidden_fields",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "submit_button_name",
+            "size": 4
+          },
+          {
+            "name": "success_message",
+            "size": 4
+          },
+          {
+            "name": "redirect_url",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "post_endpoint",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "security_key",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "settings",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "layout_settings",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "submit_email",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

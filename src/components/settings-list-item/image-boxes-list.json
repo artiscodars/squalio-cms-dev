@@ -1,0 +1,24 @@
+{
+  "collectionName": "settings_list_item_image_boxes",
+  "info": {
+    "displayName": "Image boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.image"
+    }
+  }
+}

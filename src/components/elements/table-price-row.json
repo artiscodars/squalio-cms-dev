@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_table_price_rows",
+  "info": {
+    "displayName": "Table price row",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "row_title_caption": {
+      "type": "string"
+    }
+  }
+}

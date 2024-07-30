@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_settings_blocks_redirects",
+  "info": {
+    "displayName": "redirect"
+  },
+  "options": {},
+  "attributes": {
+    "old": {
+      "type": "string"
+    },
+    "new": {
+      "type": "string"
+    },
+    "type": {
+      "type": "integer"
+    }
+  }
+}

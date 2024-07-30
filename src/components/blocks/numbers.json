@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_blocks_numbers",
+  "info": {
+    "displayName": "Numbers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "numbers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.numbers-item"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Dark Blurred",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "columns": {
+      "type": "integer",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "Centred",
+        "Title centred",
+        "Numbers centred",
+        "Left aligned",
+        "Timeline"
+      ]
+    }
+  }
+}

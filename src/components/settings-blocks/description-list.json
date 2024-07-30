@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_settings_blocks_desc_lists",
+  "info": {
+    "displayName": "Description list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "enum": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "default": "desktop",
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+     "component": "settings-fields.text"
+    },
+    "descriptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-list-item.description-list"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_menu_children",
+  "info": {
+    "displayName": "Tree",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "level_one": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tree-level-one"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "self",
+        "blank"
+      ],
+      "default": "self"
+    }
+  }
+}

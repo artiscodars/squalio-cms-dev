@@ -1,0 +1,7 @@
+{
+  "key": "plugin_meilisearch_meilisearch_host",
+  "value": "https://ms-bc6e1aa53e46-4221.fra.meilisearch.io",
+  "type": "string",
+  "environment": null,
+  "tag": null
+}

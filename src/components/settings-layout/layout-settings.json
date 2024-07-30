@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_settings_layout_layout_settings",
+  "info": {
+    "displayName": "Layout settings",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "required": true,
+      "default": "desktop",
+      "enum": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    },
+    "wrapper": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-layout.wrapper"
+    },
+    "container": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-layout.container"
+    },
+    "hide_title": {
+      "type": "boolean"
+    }
+  }
+}

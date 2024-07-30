@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_settings_blocks_texts",
+  "info": {
+    "displayName": "Text"
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "required": true,
+      "default": "desktop",
+      "enum": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    }
+  }
+}

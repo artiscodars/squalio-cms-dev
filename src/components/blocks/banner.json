@@ -1,0 +1,85 @@
+{
+  "collectionName": "components_blocks_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": "",
+    "icon": "monitor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "title_tag": {
+      "type": "enumeration",
+      "required": false,
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.button"
+    },
+    "width": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Boxed",
+      "enum": [
+        "Boxed",
+        "Full"
+      ]
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "Big centred",
+        "Big left aligned",
+        "Small"
+      ]
+    },
+    "hide_title": {
+      "type": "boolean"
+    },
+    "description_font_size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "middle",
+        "large"
+      ],
+      "default": "large"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

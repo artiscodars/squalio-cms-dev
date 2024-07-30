@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_social_menus",
+  "info": {
+    "displayName": "Social menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-link"
+    },
+    "column": {
+      "type": "integer"
+    }
+  }
+}

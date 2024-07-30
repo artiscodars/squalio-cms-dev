@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_elements_slides",
+  "info": {
+    "displayName": "Slide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_type": {
+      "type": "enumeration",
+      "enum": [
+        "button",
+        "text",
+        "slide"
+      ]
+    },
+    "link_text": {
+      "type": "string"
+    }
+  }
+}

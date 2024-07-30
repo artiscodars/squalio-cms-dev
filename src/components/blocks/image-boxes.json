@@ -1,0 +1,88 @@
+{
+  "collectionName": "components_blocks_image_boxes",
+  "info": {
+    "displayName": "Image boxes",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image_boxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.image-box"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "columns": {
+      "type": "integer",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "Title centred",
+        "Title and description centred",
+        "Frame special",
+        "Event agenda",
+        "Highlights raised list"
+      ]
+    },
+    "link_type": {
+      "type": "enumeration",
+      "enum": [
+        "box",
+        "title",
+        "button"
+      ]
+    },
+    "button_name": {
+      "type": "string"
+    },
+    "box_template": {
+      "type": "enumeration",
+      "enum": [
+        "Left aligned",
+        "Centred",
+        "Image on the left",
+        "Image on the right"
+      ]
+    }
+  }
+}

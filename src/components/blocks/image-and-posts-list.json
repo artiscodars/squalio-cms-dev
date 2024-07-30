@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_blocks_image_and_posts_lists",
+  "info": {
+    "displayName": "Image and posts list",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "ImageLeft",
+        "ImageRight"
+      ]
+    },
+    "title_display": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "base_slug": {
+      "type": "string"
+    },
+    "query_params": {
+      "type": "string"
+    },
+    "show_more_button": {
+      "type": "string"
+    },
+    "show_more_button_url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "image_width": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    }
+  }
+}

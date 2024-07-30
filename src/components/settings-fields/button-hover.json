@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_settings_fields_button_hover",
+  "info": {
+    "displayName": "Button hover",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "background": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "text_decoration": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "underline"
+      ]
+    },
+    "font_weight": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "semibold",
+        "bold",
+        "black",
+        "x100",
+        "x200",
+        "x300",
+        "x400",
+        "x500",
+        "x600",
+        "x700",
+        "x800",
+        "x900"
+      ],
+      "default": "normal"
+    },
+    "border_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

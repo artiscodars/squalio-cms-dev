@@ -1,0 +1,135 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.cookie-scripts",
+  "value": {
+    "uid": "blocks.cookie-scripts",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "script",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "script": {
+        "edit": {
+          "label": "script",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "script",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "placement": {
+        "edit": {
+          "label": "placement",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "placement",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cookie_names": {
+        "edit": {
+          "label": "cookie_names",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cookie_names",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "script",
+        "title",
+        "slug"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 4
+          },
+          {
+            "name": "placement",
+            "size": 4
+          },
+          {
+            "name": "slug",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "script",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cookie_names",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,105 @@
+{
+  "collectionName": "components_blocks_posts",
+  "info": {
+    "displayName": "posts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "paginator": {
+      "type": "boolean",
+      "default": false
+    },
+    "image_position": {
+      "type": "enumeration",
+      "enum": [
+        "image to the left",
+        "image to the right"
+      ]
+    },
+    "show_more_button": {
+      "type": "string"
+    },
+    "date": {
+      "type": "boolean"
+    },
+    "source": {
+      "type": "string",
+      "required": true
+    },
+    "base_slug": {
+      "type": "string",
+      "required": true
+    },
+    "query_params": {
+      "type": "string"
+    },
+    "show_more_button_url": {
+      "type": "string"
+    },
+    "content_filter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.content-filter-option"
+    },
+    "advanced_settings": {
+      "type": "json"
+    },
+    "show_filter": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "locale": {
+      "type": "string"
+    },
+    "fallback_page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "columns": {
+      "type": "integer",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    }
+  }
+}

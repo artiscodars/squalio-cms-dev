@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_blocks_slideshows",
+  "info": {
+    "displayName": "Slideshow",
+    "description": "",
+    "icon": "slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.slide"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    }
+  }
+}

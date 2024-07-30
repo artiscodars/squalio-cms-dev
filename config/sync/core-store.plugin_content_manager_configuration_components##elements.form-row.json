@@ -1,0 +1,153 @@
+{
+  "key": "plugin_content_manager_configuration_components::elements.form-row",
+  "value": {
+    "uid": "elements.form-row",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "label",
+      "defaultSortBy": "placeholder",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "type": {
+        "edit": {
+          "label": "type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "placeholder": {
+        "edit": {
+          "label": "placeholder",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "placeholder",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "This is mandatory for all types except title",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "label": {
+        "edit": {
+          "label": "label",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "label",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "mandatory": {
+        "edit": {
+          "label": "mandatory",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mandatory",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "field_description": {
+        "edit": {
+          "label": "field_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "field_description",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "type",
+        "placeholder",
+        "label"
+      ],
+      "edit": [
+        [
+          {
+            "name": "label",
+            "size": 4
+          },
+          {
+            "name": "type",
+            "size": 4
+          },
+          {
+            "name": "name",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "placeholder",
+            "size": 4
+          },
+          {
+            "name": "mandatory",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "field_description",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

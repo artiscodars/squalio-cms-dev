@@ -1,0 +1,140 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.banner",
+        "blocks.quote",
+        "blocks.description",
+        "blocks.text",
+        "blocks.text-and-image",
+        "blocks.text-and-video",
+        "blocks.icon-boxes",
+        "blocks.image-boxes",
+        "blocks.description-list",
+        "blocks.team",
+        "blocks.button-group",
+        "blocks.logo-group",
+        "blocks.testimonials",
+        "blocks.posts",
+        "blocks.contact-form",
+        "blocks.table",
+        "blocks.content-block",
+        "blocks.video-gallery",
+        "blocks.gallery",
+        "blocks.slideshow",
+        "blocks.accordion",
+        "blocks.posts-swiper",
+        "blocks.image-and-posts-list"
+      ]
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "excerpt": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "hide_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
+    },
+    "hide_breadcrumb": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
+    },
+    "content_block": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::content-block.content-block",
+      "inversedBy": "excluded_pages"
+    }
+  }
+}

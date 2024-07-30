@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_settings_redirects",
+  "info": {
+    "displayName": "redirect",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "old": {
+      "type": "string",
+      "required": true
+    },
+    "new": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

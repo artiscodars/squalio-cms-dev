@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_table_header_columns",
+  "info": {
+    "displayName": "Table column",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_name": {
+      "type": "string"
+    },
+    "text_before_price": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "text_after_price": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "old_price": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

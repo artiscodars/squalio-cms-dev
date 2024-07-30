@@ -1,0 +1,77 @@
+{
+  "collectionName": "components_blocks_button_groups",
+  "info": {
+    "displayName": "Button group",
+    "description": "",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.button"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "Centred",
+        "Left aligned",
+        "Right aligned"
+      ]
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "subtitle_display": {
+      "type": "enumeration",
+      "enum": [
+        "h2",
+        "h3",
+        "div",
+        "p",
+        "price",
+        "hidden"
+      ]
+    }
+  }
+}

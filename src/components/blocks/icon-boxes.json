@@ -1,0 +1,78 @@
+{
+  "collectionName": "components_blocks_icon_boxes",
+  "info": {
+    "displayName": "Icon boxes",
+    "description": "",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "icon_boxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.icon-box"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Dark Blurred",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "iconbox_template": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Centered",
+      "enum": [
+        "To the left",
+        "Centered",
+        "To the right"
+      ]
+    },
+    "columns": {
+      "type": "integer",
+      "required": false
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "Dark decorated cube",
+        "Highlights list raised on light gray",
+        "Highlights list raised on white"
+      ]
+    }
+  }
+}

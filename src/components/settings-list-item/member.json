@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_settings_blocks_members",
+  "info": {
+    "displayName": "Member",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "social_icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.icon"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.image"
+    }
+  }
+}

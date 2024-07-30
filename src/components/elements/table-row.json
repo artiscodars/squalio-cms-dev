@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_table_rows",
+  "info": {
+    "displayName": "Table row",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "column_values": {
+      "type": "string"
+    }
+  }
+}

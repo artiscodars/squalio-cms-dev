@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_footer_menus",
+  "info": {
+    "displayName": "Footer menu",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tree": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tree"
+    }
+  }
+}

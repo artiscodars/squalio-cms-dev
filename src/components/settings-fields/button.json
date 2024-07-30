@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_settings_fields_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "normal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.button-normal"
+    },
+    "hover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.button-hover"
+    }
+  }
+}

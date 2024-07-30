@@ -1,0 +1,287 @@
+{
+  "key": "plugin_content_manager_configuration_components::settings-layout.container",
+  "value": {
+    "uid": "settings-layout.container",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "background_color",
+      "defaultSortBy": "background_color",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "layout": {
+        "edit": {
+          "label": "layout",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "layout",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "background_color": {
+        "edit": {
+          "label": "background_color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background_color",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "background_gradient_start": {
+        "edit": {
+          "label": "background_gradient_start",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background_gradient_start",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "background_gradient_end": {
+        "edit": {
+          "label": "background_gradient_end",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background_gradient_end",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "background_image": {
+        "edit": {
+          "label": "background_image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background_image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "background_image_size": {
+        "edit": {
+          "label": "background_image_size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background_image_size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "background_image_position": {
+        "edit": {
+          "label": "background_image_position",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background_image_position",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "background_gradient_direction": {
+        "edit": {
+          "label": "background_gradient_direction",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background_gradient_direction",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "margin": {
+        "edit": {
+          "label": "margin",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "margin",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "margin_unit": {
+        "edit": {
+          "label": "margin_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "margin_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "background_opacity": {
+        "edit": {
+          "label": "background_opacity",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background_opacity",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "padding": {
+        "edit": {
+          "label": "padding",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "padding",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "padding_unit": {
+        "edit": {
+          "label": "padding_unit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "padding_unit",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "layout",
+        "background_color",
+        "background_gradient_start"
+      ],
+      "edit": [
+        [
+          {
+            "name": "layout",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "background_image",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "background_image_size",
+            "size": 6
+          },
+          {
+            "name": "background_image_position",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "background_color",
+            "size": 6
+          },
+          {
+            "name": "background_opacity",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "background_gradient_start",
+            "size": 4
+          },
+          {
+            "name": "background_gradient_end",
+            "size": 4
+          },
+          {
+            "name": "background_gradient_direction",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "margin",
+            "size": 6
+          },
+          {
+            "name": "margin_unit",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "padding",
+            "size": 6
+          },
+          {
+            "name": "padding_unit",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

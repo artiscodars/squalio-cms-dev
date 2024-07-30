@@ -1,0 +1,14 @@
+{
+  "key": "plugin_meilisearch_meilisearch_listened_content_types",
+  "value": [
+    null,
+    "api::vacancy.vacancy",
+    "api::vendor.vendor",
+    "api::event.event",
+    "api::page.page",
+    "api::post.post"
+  ],
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

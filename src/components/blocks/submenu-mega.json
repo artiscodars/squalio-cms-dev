@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_mega_submenu",
+  "info": {
+    "displayName": "Mega submenu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "self",
+        "blank"
+      ],
+      "default": "self"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.mega-submenu-columns"
+    }
+  }
+}

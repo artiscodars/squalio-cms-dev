@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_data_sets",
+  "info": {
+    "displayName": "Data set",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Dark decorated",
+        "Primary",
+        "Secondary"
+      ]
+    }
+  }
+}

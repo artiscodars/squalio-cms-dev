@@ -1,0 +1,89 @@
+{
+  "collectionName": "components_blocks_text_and_images",
+  "info": {
+    "displayName": "Text & Image",
+    "description": "",
+    "icon": "write"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image_width": {
+      "type": "string",
+      "required": false
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.button"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "template": {
+      "type": "enumeration",
+      "required": false,
+      "default": "ImageLeft",
+      "enum": [
+        "ImageLeft",
+        "ImageRight",
+        "ImageLeftBelowTitle",
+        "ImageRightBelowTitle",
+        "ImageAboveTitle",
+        "ImageBelowTitle",
+        "ImageBelowDescription",
+        "Dark decorated cube"
+      ]
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Dark Blurred",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "advanced_settings": {
+      "type": "json"
+    }
+  }
+}

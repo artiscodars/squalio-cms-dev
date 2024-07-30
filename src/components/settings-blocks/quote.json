@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_settings_blocks_quotes",
+  "info": {
+    "displayName": "Quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "required": true,
+      "default": "desktop",
+      "enum": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    }
+  }
+}

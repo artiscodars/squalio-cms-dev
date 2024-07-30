@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_settings_blocks_contact_forms",
+  "info": {
+    "displayName": "Contact form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "enum": [
+        "desktop",
+        "tablet",
+        "menu"
+      ],
+      "required": true,
+      "default": "desktop"
+    },
+    "description_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-blocks.form"
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.posts",
+  "value": {
+    "uid": "blocks.posts",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "paginator": {
+        "edit": {
+          "label": "paginator",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "paginator",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "image_position": {
+        "edit": {
+          "label": "image_position",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image_position",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "show_more_button": {
+        "edit": {
+          "label": "show_more_button",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "show_more_button",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "date": {
+        "edit": {
+          "label": "date",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "date",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "source": {
+        "edit": {
+          "label": "source",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "source",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "base_slug": {
+        "edit": {
+          "label": "base_slug",
+          "description": "Used in links",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "base_slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "query_params": {
+        "edit": {
+          "label": "query_params",
+          "description": "https://docs.strapi.io/dev-docs/api/rest/filters-locale-publication",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "query_params",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "show_more_button_url": {
+        "edit": {
+          "label": "show_more_button_url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "show_more_button_url",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "content_filter": {
+        "edit": {
+          "label": "content_filter",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content_filter",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "advanced_settings": {
+        "edit": {
+          "label": "advanced_settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "advanced_settings",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "show_filter": {
+        "edit": {
+          "label": "show_filter",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "show_filter",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "locale": {
+        "edit": {
+          "label": "locale",
+          "description": "For example: en",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "locale",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "fallback_page": {
+        "edit": {
+          "label": "fallback_page",
+          "description": "This item links to this page if there are no content blocks and no vendors",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "fallback_page",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "settings": {
+        "edit": {
+          "label": "settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "settings",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "list_layout_settings": {
+        "edit": {
+          "label": "list_layout_settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "list_layout_settings",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "layout_settings": {
+        "edit": {
+          "label": "layout_settings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "layout_settings",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "source",
+        "settings"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "source",
+            "size": 4
+          },
+          {
+            "name": "query_params",
+            "size": 8
+          }
+        ],
+        [
+          {
+            "name": "base_slug",
+            "size": 4
+          },
+          {
+            "name": "fallback_page",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "paginator",
+            "size": 4
+          },
+          {
+            "name": "image_position",
+            "size": 4
+          },
+          {
+            "name": "date",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "show_more_button",
+            "size": 4
+          },
+          {
+            "name": "show_more_button_url",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "show_filter",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "content_filter",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "advanced_settings",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "settings",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "layout_settings",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "list_layout_settings",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

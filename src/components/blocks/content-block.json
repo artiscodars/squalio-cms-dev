@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_content_blocks",
+  "info": {
+    "displayName": "Content block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content_block": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::content-block.content-block"
+    },
+    "disabled": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    }
+  }
+}

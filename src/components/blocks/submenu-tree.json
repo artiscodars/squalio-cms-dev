@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_tree_submenu",
+  "info": {
+    "displayName": "Tree submenu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "self",
+        "blank"
+      ],
+      "default": "self"
+    },
+    "tree": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tree"
+    }
+  }
+}

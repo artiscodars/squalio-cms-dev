@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_elements_list_items",
+  "info": {
+    "displayName": "List item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "background_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "margin": {
+      "type": "string"
+    },
+    "margin_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vw"
+      ],
+      "default": "px"
+    },
+    "padding": {
+      "type": "string"
+    },
+    "padding_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vw"
+      ],
+      "default": "px"
+    },
+    "border_radius": {
+      "type": "integer"
+    },
+    "border_width": {
+      "type": "integer"
+    },
+    "border_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

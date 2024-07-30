@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_elements_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "design": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "info",
+        "success",
+        "danger",
+        "warning",
+        "primary outline",
+        "secondary outline",
+        "info outline",
+        "success outline",
+        "danger outline",
+        "warning outline",
+        "link primary",
+        "link secondary",
+        "link info",
+        "link success",
+        "link danger",
+        "link warning"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "new-tab",
+        "anchor"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "normal",
+        "middle",
+        "large"
+      ]
+    },
+    "popup_link": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::content-block.content-block"
+    }
+  }
+}

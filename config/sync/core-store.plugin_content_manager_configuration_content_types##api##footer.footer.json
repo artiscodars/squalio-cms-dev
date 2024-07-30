@@ -1,0 +1,216 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::footer.footer",
+  "value": {
+    "uid": "api::footer.footer",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "copyrights",
+      "defaultSortBy": "copyrights",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "copyrights": {
+        "edit": {
+          "label": "copyrights",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "copyrights",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "social_menu": {
+        "edit": {
+          "label": "social_menu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "social_menu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footer_menu": {
+        "edit": {
+          "label": "footer_menu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footer_menu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footer_description": {
+        "edit": {
+          "label": "footer_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footer_description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "wrapper": {
+        "edit": {
+          "label": "wrapper",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "wrapper",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "blocks": {
+        "edit": {
+          "label": "blocks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "blocks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "copyrights"
+      ],
+      "edit": [
+        [
+          {
+            "name": "blocks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "social_menu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "footer_menu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "footer_description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "wrapper",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "copyrights",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

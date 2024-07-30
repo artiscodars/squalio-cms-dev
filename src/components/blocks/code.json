@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_codes",
+  "info": {
+    "displayName": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "text"
+    },
+    "placement": {
+      "type": "enumeration",
+      "enum": [
+        "head",
+        "body",
+        "footer"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

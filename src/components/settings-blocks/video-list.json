@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_settings_blocks_video_list",
+  "info": {
+    "displayName": "Video list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "enum": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "default": "desktop",
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+     "component": "settings-fields.text"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-list-item.video-item"
+    }
+  }
+}

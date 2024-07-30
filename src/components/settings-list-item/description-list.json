@@ -1,0 +1,14 @@
+{
+  "collectionName": "settings_list_item_description_lists",
+  "info": {
+    "displayName": "Description list"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    }
+  }
+}

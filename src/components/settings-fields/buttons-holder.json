@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_settings_fields_buttons_holder",
+  "info": {
+    "displayName": "Buttons",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    }
+  }
+}

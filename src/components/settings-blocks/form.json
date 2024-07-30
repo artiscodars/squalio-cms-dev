@@ -1,0 +1,93 @@
+{
+  "collectionName": "components_settings_blocks_forms",
+  "info": {
+    "displayName": "Form",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "field_background": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "field_border_width": {
+      "type": "float"
+    },
+    "field_border_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "field_border_radius": {
+      "type": "float",
+      "default": 5
+    },
+    "field_border_radius_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "em",
+        "rem"
+      ],
+      "default": "px"
+    },
+    "label_text_size": {
+      "type": "float"
+    },
+    "label_text_size_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "em",
+        "rem"
+      ]
+    },
+    "label_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "asterisk_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "row_gap": {
+      "type": "integer",
+      "default": 4
+    },
+    "column_gap": {
+      "type": "integer",
+      "default": 4
+    },
+    "columns": {
+      "type": "integer",
+      "default": 1
+    },
+    "submit_button_align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left"
+    },
+    "submit_button_size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "normal",
+        "big"
+      ],
+      "default": "normal"
+    },
+    "submit_button_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

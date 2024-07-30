@@ -1,0 +1,20 @@
+{
+  "collectionName": "settings_list_video_items",
+  "info": {
+    "displayName": "Video item",
+    "icon": "slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+     "component": "settings-fields.text"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    }
+  }
+}

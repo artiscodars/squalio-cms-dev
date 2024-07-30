@@ -1,0 +1,106 @@
+{
+  "collectionName": "components_settings_fields_button_normal",
+  "info": {
+    "displayName": "Button normal",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "background": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "text_decoration": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "underline"
+      ]
+    },
+    "text_transform": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "uppercase",
+        "lowercase",
+        "capitalize"
+      ]
+    },
+    "font_weight": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "semibold",
+        "bold",
+        "black",
+        "x300",
+        "x400",
+        "x500",
+        "x600",
+        "x700",
+        "x800"
+      ],
+      "default": "normal"
+    },
+    "margin": {
+      "type": "string"
+    },
+    "margin_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vw"
+      ],
+      "default": "px"
+    },
+    "padding": {
+      "type": "string"
+    },
+    "padding_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vw"
+      ],
+      "default": "px"
+    },
+    "border_radius": {
+      "type": "string"
+    },
+    "border_width": {
+      "type": "integer"
+    },
+    "border_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "width": {
+      "type": "string"
+    },
+    "width_unit": {
+      "type": "enumeration",
+      "enum": [
+        "px",
+        "percent",
+        "em",
+        "rem",
+        "vw"
+      ],
+      "default": "px"
+    }
+  }
+}

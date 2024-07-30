@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "redirects",
+  "info": {
+    "singularName": "redirect",
+    "pluralName": "redirects",
+    "displayName": "Redirects",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "redirect": {
+      "type": "component",
+      "repeatable": true,
+      "component": "settings.redirect"
+    }
+  }
+}

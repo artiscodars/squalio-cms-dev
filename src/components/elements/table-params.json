@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_table_settings",
+  "info": {
+    "displayName": "Table params",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "currency": {
+      "type": "string",
+      "required": true,
+      "default": "€"
+    },
+    "button_position": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom"
+      ],
+      "default": "bottom"
+    },
+    "price_position": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom"
+      ],
+      "default": "bottom"
+    },
+    "featured_column": {
+      "type": "integer"
+    }
+  }
+}

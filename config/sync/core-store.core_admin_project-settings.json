@@ -1,0 +1,28 @@
+{
+  "key": "core_admin_project-settings",
+  "value": {
+    "authLogo": {
+      "name": "Squalio.png",
+      "hash": "Squalio_c9a3033dc6",
+      "url": "/uploads/Squalio_c9a3033dc6.png",
+      "width": 500,
+      "height": 115,
+      "ext": ".png",
+      "size": 4.81,
+      "provider": "local"
+    },
+    "menuLogo": {
+      "name": "cropped-squalio-favicon-192x192.jpg",
+      "hash": "cropped_squalio_favicon_192x192_de8a4b4986",
+      "url": "/uploads/cropped_squalio_favicon_192x192_de8a4b4986.jpg",
+      "width": 192,
+      "height": 192,
+      "ext": ".jpg",
+      "size": 2.66,
+      "provider": "local"
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

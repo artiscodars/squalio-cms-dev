@@ -1,0 +1,34 @@
+{
+  "collectionName": "settings_list_item_icon_boxes",
+  "info": {
+    "displayName": "Icon boxes"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "subtitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.text"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.icon"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-fields.button"
+    }
+  }
+}

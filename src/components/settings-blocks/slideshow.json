@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_settings_blocks_slideshows",
+  "info": {
+    "displayName": "slideshow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "viewport": {
+      "type": "enumeration",
+      "required": true,
+      "default": "desktop",
+      "enum": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    },
+    "title_settings": {
+      "type": "component",
+      "repeatable": false,
+     "component": "settings-fields.text"
+    },
+    "slideshow_speed": {
+      "type": "integer"
+    },
+    "slideshow_animation": {
+      "type": "enumeration",
+      "enum": [
+        "slide-horizontal",
+        "fade"
+      ]
+    },
+    "slideshow_arrows": {
+      "type": "string"
+    },
+    "slideshow_navigation": {
+      "type": "string"
+    },
+    "slideshow_arrows_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "slideshow_navigation_active_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "slideshow_navigation_inactive_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "slide_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings-blocks.slide"
+    }
+  }
+}

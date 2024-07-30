@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_elements_megamenu_columns",
+  "info": {
+    "displayName": "Megamenu columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_url": {
+      "type": "string"
+    },
+    "column_source": {
+      "type": "string"
+    },
+    "hide_title": {
+      "type": "boolean"
+    },
+    "query_params": {
+      "type": "string"
+    },
+    "base_slug": {
+      "type": "string"
+    },
+    "column_type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "tree",
+        "query"
+      ],
+      "default": "tree"
+    },
+    "tree": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tree"
+    }
+  }
+}

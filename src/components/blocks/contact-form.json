@@ -1,0 +1,113 @@
+{
+  "collectionName": "components_blocks_contact_forms",
+  "info": {
+    "displayName": "Contact form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "form_rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.form-row",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "post_endpoint": {
+      "type": "string"
+    },
+    "success_message": {
+      "type": "string",
+      "required": true
+    },
+    "redirect_url": {
+      "type": "string"
+    },
+    "submit_button_name": {
+      "type": "string",
+      "required": true
+    },
+    "security_key": {
+      "type": "string"
+    },
+    "hidden_fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.hidden-fields"
+    },
+    "privacy_policy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "form_template": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Content on the left (1/2)",
+      "enum": [
+        "Content on the right (2/3)",
+        "Content on the left (2/3)",
+        "Content on the right (1/2)",
+        "Content on the left (1/2)",
+        "Content below title",
+        "Content below form",
+        "Event form",
+        "Form decorated"
+      ]
+    },
+    "submit_email": {
+      "type": "string",
+      "regex": "^([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,})(,\\s*[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,})*$"
+    },
+    "advanced_settings": {
+      "type": "json"
+    }
+  }
+}

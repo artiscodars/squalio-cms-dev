@@ -1,0 +1,132 @@
+{
+  "key": "plugin_content_manager_configuration_components::settings-fields.button-hover",
+  "value": {
+    "uid": "settings-fields.button-hover",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "text_color",
+      "defaultSortBy": "text_color",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_color": {
+        "edit": {
+          "label": "text_color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_color",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "background": {
+        "edit": {
+          "label": "background",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "background",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_decoration": {
+        "edit": {
+          "label": "text_decoration",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_decoration",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "font_weight": {
+        "edit": {
+          "label": "font_weight",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "font_weight",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "border_color": {
+        "edit": {
+          "label": "border_color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "border_color",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "text_color",
+        "background"
+      ],
+      "edit": [
+        [
+          {
+            "name": "background",
+            "size": 4
+          },
+          {
+            "name": "text_color",
+            "size": 4
+          },
+          {
+            "name": "border_color",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "font_weight",
+            "size": 4
+          },
+          {
+            "name": "text_decoration",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

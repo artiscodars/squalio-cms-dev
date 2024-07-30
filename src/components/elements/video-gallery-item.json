@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_video_gallery_items",
+  "info": {
+    "displayName": "Video gallery item",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "youtube_id": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

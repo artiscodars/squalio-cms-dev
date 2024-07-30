@@ -1,0 +1,87 @@
+{
+  "collectionName": "components_blocks_posts_swiper",
+  "info": {
+    "displayName": "Posts Swiper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "show_more_button": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "required": true
+    },
+    "base_slug": {
+      "type": "string",
+      "required": true
+    },
+    "query_params": {
+      "type": "string"
+    },
+    "show_more_button_url": {
+      "type": "string"
+    },
+    "content_filter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.content-filter-option"
+    },
+    "advanced_settings": {
+      "type": "json"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "Transparent",
+      "enum": [
+        "Transparent",
+        "White",
+        "Light grey",
+        "Dark",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "width": {
+      "type": "string",
+      "required": false
+    },
+    "columns": {
+      "type": "integer",
+      "required": false
+    },
+    "title_display": {
+      "type": "enumeration",
+      "required": false,
+      "default": "h2",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "hidden"
+      ]
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "Vendors special"
+      ]
+    }
+  }
+}
